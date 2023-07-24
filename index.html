@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darjeeling</title>
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+  rel="stylesheet"
+/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous" defer></script>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="logo/LOGO.png">
+</head>
+<body>
+    <header class="header">
+        <div class="header_content">
+          <i class="bi bi-brightness-high-fill" id="toggleDark" style="font-size: 35px !important; cursor: pointer; position: absolute;right: 5px;"></i>
+         <a href="index.html" class="logo">DTourism</a>  
+          <nav class="nav">
+          <ul class="nav_list">
+            <li class="nav_item">
+                <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+                <a href="https://www.sikkimtourism.gov.in/Public/ExperienceSikkim/history" class="nav_link" target="_blank">About</a>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link">Services</a>
+            </li>
+            <li class="nav_item">
+                <a href="Gallery.html" class="nav_link">Gallery</a>
+            </li>
+            <li class="nav_item">
+                <a href="https://www.sikkimtourismindia.com/contact.html" class="nav_link" target="_blank">Contacts</a>
+            </li>
+          </ul> 
+         </nav>
+         <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <button class="button" id="form-open">Login</button>
+    </header>
+<main>
+    <section class="home">
+        <img src="IMG/IMG_0809.JPG" alt="" width="100%">
+    <div class="form_container">
+        <i class="uil uil-times form_close"></i> 
+        <!-- Login Form -->
+        <div class="form login_form">
+            <form action="#" method="get">
+                <h2>Login</h2>
+
+                <div class="input_box">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password"  placeholder="Enter your password" required>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+
+                <div class="option-field">
+                    <span class="checkbox">
+                        <input type="checkbox" id="check">
+                        <label for="check">Remember me</label>
+                    </span>
+                    <a href="#" class="forgot_pw">Forgot password?</a>
+                </div>
+
+                <button class="button" style="margin-top: 30px;">Login Now</button>
+                <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+            </form>
+        </div>
+        <!-- Signup Form -->
+        <div class="form signup_form">
+            <form action="#" method="get">
+                <h2>Signup</h2>
+
+                <div class="input_box">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password"  placeholder="Create password" required>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password"  placeholder="Confirm password" required>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                <button class="button">Signup Now</button>
+                <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+            </form>
+        </div>
+    </div> 
+      </section>
+      <br> <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-4"><img src="IMG/DSCN0695.JPG" class="img-fluid" alt="Darjeeling Mall"></div>
+        <div class="col-6"><div class="jumbotron">
+         <h3>Darjeeling Mall</h3>
+         <p>Mall is the town center or the social center  of Darjeeling. This is where some of the old and heritage
+            stores are lined up on one side, and there is open view on the other side that is fringed by Pine trees.
+         </p>
+        </div></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-4"><img src="IMG/DSCN0734.JPG" class="img-fluid" alt="Tea Garden"></div>
+        <div class="col-6"><div class="jumbotron">
+         <h3>Puttabong Tea Estate</h3>
+         <p>Originally known as Tukvar Tea Estate, Puttabong Tea Estate is considered to be the oldest 
+          tea estate in Darjeeling. Based at an altitude of 1500 to 6500 ft., the sprawling beautiful tea
+           garden also overlooks the snow-capped Kanchenjunga Peak. 
+           The estate uses sustainable products and techniques like vermicompost, cattle farming, 
+           and liquid fertilizers. It produces some of the best quality tea in the world.
+         </p>
+        </div></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-4"><img src="IMG/DSC_0019-001.JPG" class="img-fluid" alt="Tiger Hill"></div>
+        <div class="col-6"><div class="jumbotron">
+         <h3  style="margin-top: 20px;">Tiger Hill</h3>
+         <p>Laying at an altitude of 2590 meters and a distance of 13 Kilometers from the Darjeeling,
+          Tiger Hill is most famous for its splended sights of sunnrise from where you can see the peaks
+          of Kanchenjunga illuminate before the sun is seen at lower elevations.  The magnificent view
+          of snow-capped mountains sitting amidst cotton clouds attracts tourist to Tiger Hill form
+          all over the country. 
+         </p>
+        </div></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-4"><img src="IMG/DSC_0251.JPG" class="img-fluid" alt="..."></div>
+        <div class="col-6"><div class="jumbotron">
+         <h3>Orange Garden</h3>
+         <p>One of the most untouched parts of the Darjeeling Himalayan foothills, Sittong & Shelphu Hills are treasure trove yet to be discovered. There are so many unknown villages with Orange Orchard in North Bengal-Mirik,Sittong,Shelphu & Mangwa are one of them. Every house in Shittiong has a garden and every garden has Orange trees. 
+          The whole village turns Orange during winter.   
+         </p>
+        </div></div>
+      </div>
+    </div> 
+</div> 
+<br><br><br>
+<div class="title">
+  <h2 style="text-align: center; padding-right: 40px;">Form Section </h2>
+  </div>
+  <br>
+  <div class="container">
+  <div class="row">
+    <div class="col-4" style="background-color: lightseagreen; border-radius: 5px;">
+      <h6 style="background-color:yellow ; color: black; font-family: sans-serif; font-size: 30px; font-weight: bold; text-align: center; border-radius: 5px; margin-top: 20px; margin-bottom: 20px; border: 1px solid black;">Your Account</h6>
+      <form class="row g-3 pt-4" action="Thank you.html">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label" style="color: black;font-weight: bold;">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" required>
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label" style="color: black;font-weight: bold;" >Password</label>
+        <input type="password" class="form-control" id="inputPassword4" required >
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label" required  style="color: black;font-weight: bold;">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label" required style="color: black;font-weight: bold;">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label" style="color: black;font-weight: bold;">City</label>
+        <input type="text" class="form-control" id="inputCity" required >
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label" style="color: black;font-weight: bold;">State</label>
+        <select id="inputState" class="form-select" required>
+          <option selected>Choose...</option>
+          <option>1BHK AC/NON-AC ROOMS</option>
+          <option>2BHK AC/NON-AC ROOMS</option>
+          <option>3BHK AC/NON-AC ROOMS</option>
+          <option>4BHK AC/NON-AC ROOMS</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label" style="color: black; font-weight: bold;">Zip</label>
+        <input type="text" class="form-control" id="inputZip" required >
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck"required >
+          <label class="form-check-label" for="gridCheck">
+            I agree with the terms and conditions
+          </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+        <label class="form-check-label" for="flexRadioDefault1">
+          Male
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked required>
+        <label class="form-check-label" for="flexRadioDefault2">
+         Female
+        </label>
+      </div>
+    </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
+      </div>
+      </form></div>
+    <div class="col-8">
+      <img src="IMG/IMG_0809.JPG" alt="" class="w-100">
+<br>
+      <div class="title" style="background-color: lightgrey; border-radius: 5px; font-size: 20px;">
+        <h2 style="text-align: center; padding-right: 30px; padding-top: 30px; padding-bottom: 30px;">Darjeeling</h2>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+<br>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>We are avalable on:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>DTourism
+            </h6>
+            <p>
+             Welcome to North bengal and the Queen of hills , Darjeeling
+             enjoy the hospitality, the testy oranges and lastly the beautiful scenery 
+             of Darjeeling. Welcome to Darjeeling!! 
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+             Destinations
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Darjeeling Mall</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orange Garden</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset"> Tea Estate</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Tiger Hill</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Home</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">About</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Services</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Contacts</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>  Address : Upper M G Marg Gangtok, Sikkim - 737101</p>
+            <p>
+              <i class="fas fa-envelope me-2"></i>
+              contact@sikkimtourism.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +91-8826678880</p>
+            <p><i class="fas fa-print me-3"></i> +91-8826678880</p>
+          </div>
+          <br><br>
+          <div class="container p-4 pb-0">
+          <form action="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-auto mb-4 mb-md-0">
+                <p>
+                  <strong>Subcribe to our website for more details</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-md-5 col-12 mb-4 mb-md-0">
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form5Example25" class="form-control"  required/>
+                  <label class="form-label" for="form5Example25">Email address</label>
+                </div>
+              </div>
+              <!--Grid column-->
+              <!--Grid column-->
+              <div class="col-auto mb-4 mb-md-0">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-danger mb-4">
+                  Subscribe
+                </button>
+            </div>
+              <!--Grid column-->
+            </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="#">Darjeeling District Administration</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <script src="js/script.js" defer></script>  
+</body>
+</html>
